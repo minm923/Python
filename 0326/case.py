@@ -1,4 +1,14 @@
-age = 20
+'''
+    this is a comment
+'''
+
+"""
+    this is also a comment
+"""
+
+
+age \
+= 20
 
 if age > 60:
     print "old people"
@@ -17,9 +27,9 @@ for x in classmates:
 nums = [1, 2, 3, 4, 5]
 
 n = len(nums)
-index = 0
 
-while n >= 0:
+index = 0
+while n > 0:
     nums[index] = nums[index] * 2
     n = n - 1
     index = index + 1
